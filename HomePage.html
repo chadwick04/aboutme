@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I AM ME!</title>
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <style>
+        img{
+            width: 20%;
+            border-radius: 100%;
+        }
+        .pic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+            background-color: darkgray;
+            text-align: center;
+            border-radius: 5px;            
+        }
+        article{
+            background-color: lightgray;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 5px;
+        }
+        
+    </style>  
+    <script>
+        function doSomething(){
+            document.getElementById("greetings").innerHTML = ("Dont Press That!")
+        }
+    </script> 
+</head>
+
+<body>
+    <h1>I AM ME!</h1>
+    <small><nav>
+        ||<a href="MyFiles.html" >MY FILES</a>||
+        <a href="MyInformation.html">MY INFORMATION</a>||
+        <a href="HtmlTags.html">HTML TAGS</a>||
+    </nav></small>
+    <hr color="black">
+    <br>
+    
+    <div class="pic">
+    <img src="image/pic4.jpeg" alt="Image of Me" title="Chadwick Jarvis C. Lanoy">
+    </div>
+
+    <div class="text">
+        <header style="background-color: lightgray;">
+            <h2 id="greetings">Hi, There!</h2>
+        </header>
+
+        <main>
+            <article>
+                <p>I am <b>Chadwick Jarvis C. Lanoy</b>, 19 years old. I live in San Isidro, Tagbilaran City. I am currently studying Computer Engineering at University of Bohol.</p>
+            </article>
+            <article>
+                <p>I have two sister’s that is studying at <abbr title="Dr. Cecilio Putong National High School"><span style="color: rgb(220, 91, 112);"><b><ins>DCPNHS</ins></b></span></abbr> they are grade 11 and 12. I have a pet dog and his breed is a doberman. We have another house in Batuan, Bohol.</p>
+            </article>
+            <article>       
+                <p>I like playing online games and watching anime or movies that find my interest. I like to eat foods that has sugar like chocolate and ice-cream. I love sleeping when i do nothing.
+                    <button onclick="doSomething()" style="background-color: lightgrey;color: black;">
+                        <del>
+                            deleted
+                        </del>
+                    </button>
+                </p>
+            </article>
+        </main>    
+        <small>
+            <footer style="background-color: rgb(60, 59, 59);padding: 5px;">
+                <p>MADE BY: CHADWICK JARVIS C. LANOY<br>
+                <address><a href="mailto:chadwickjarvislanoy@gmail.com">chadwickjarvislanoy@gmail.com</p></address></a>
+            </footer>
+        </small>
+    </div>
+        
+    <div class="button" style="margin: 5px;">
+    <a href="MyFiles.html">
+        <button>MY FILES</button>
+    </a>
+    <a href="MyInformation.html">
+        <button>MY INFORMATION</button>
+    </a>
+    <a href="HtmlTags.html">
+        <button>HTML TAGS</button>
+    </a>
+    </div>
+
+</body>
+</html>

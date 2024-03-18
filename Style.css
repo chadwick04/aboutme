@@ -1,0 +1,13 @@
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image: url(image/background.jpg);
+}
